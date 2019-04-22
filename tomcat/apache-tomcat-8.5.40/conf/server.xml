@@ -99,12 +99,12 @@
          Either JSSE or OpenSSL style configuration may be used. OpenSSL style
          configuration is used below.
     -->
-    
-    <Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
-    maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
-    clientAuth="false" sslProtocol="TLS"
-    keystoreFile="/Users/apple/Documents/xueliKey"
-    keystorePass="19931207aA" />
+        <Connector 
+     port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+    maxThreads="200" SSLEnabled="true" scheme="https" secure="true"
+    SSLCertificateFile="⁨Users⁩/⁨apple⁩/⁨pki-example-1⁩/⁨certs⁩/simple.org.crt"
+    SSLCertificateKeyFile="⁨Users⁩/apple⁩/⁨pki-example-1⁩/⁨certs/simple.org.key"
+    SSLVerifyClient="optional" SSLProtocol="TLSv1+TLSv1.1+TLSv1.2" />
     <!--<UpgradeProtocol className="org.apache.coyote.http2.Http2Protocol" />
         <SSLHostConfig>
             <Certificate certificateKeyFile="conf/localhost-rsa-key.pem"
