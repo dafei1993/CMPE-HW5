@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:13:10:36 -0700] "GET / HTTP/1.1" 200 11403
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:15:12:55 -0700] "GET / HTTP/1.1" 200 11403
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:15:13:04 -0700] "GET /manager/status HTTP/1.1" 401 2562
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:15:13:22 -0700] "GET /docs/security-howto.html HTTP/1.1" 200 37330
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:15:13:22 -0700] "GET /docs/images/tomcat.png HTTP/1.1" 200 5103
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:15:13:22 -0700] "GET /docs/images/docs-stylesheet.css HTTP/1.1" 200 6082
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:15:13:22 -0700] "GET /docs/images/asf-logo.svg HTTP/1.1" 200 20712
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:15:13:22 -0700] "GET /docs/images/fonts/fonts.css HTTP/1.1" 200 1996
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:15:13:22 -0700] "GET /docs/images/fonts/OpenSans600.woff HTTP/1.1" 200 22604
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:15:13:22 -0700] "GET /docs/images/fonts/OpenSans400.woff HTTP/1.1" 200 21956
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:15:13:22 -0700] "GET /docs/images/fonts/OpenSans700.woff HTTP/1.1" 200 22748
